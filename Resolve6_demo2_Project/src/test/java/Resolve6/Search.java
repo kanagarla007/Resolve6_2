@@ -23,9 +23,9 @@ public class Search {
 	public static void BT()
 	{
 		//WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/src/main/resources/chromedriver_win32/chromedriver.exe");
 		//obj = new ChromeDriver();
-		obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(4444).build()); 
+		obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(91).build()); 
 		obj.get("https://www.selenium.dev/downloads/");
 	}
 	@AfterTest
