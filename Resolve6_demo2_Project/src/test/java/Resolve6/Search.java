@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -20,7 +21,7 @@ public class Search {
 	public static void BT()
 	{
 		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
-		obj = new ChromeDriver(); 
+		obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(65530).build()); 
 		obj.get("https://www.selenium.dev/downloads/");
 	}
 	@AfterTest
