@@ -13,6 +13,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Search {
 	
 	static WebDriver obj = null;
@@ -20,7 +22,8 @@ public class Search {
 	
 	public static void BT()
 	{
-		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
 		obj = new ChromeDriver();
 		//obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(9515).build()); 
 		obj.get("https://www.selenium.dev/downloads/");
