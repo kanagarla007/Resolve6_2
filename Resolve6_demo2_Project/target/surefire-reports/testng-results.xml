@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-17T10:08:03 IST" name="RegressionSuite" finished-at="2021-04-17T10:08:11 IST" duration-ms="8838">
+  <suite started-at="2021-04-17T11:23:11 IST" name="RegressionSuite" finished-at="2021-04-17T11:23:25 IST" duration-ms="13739">
     <groups>
     </groups>
-    <test started-at="2021-04-17T10:08:03 IST" name="Test" finished-at="2021-04-17T10:08:11 IST" duration-ms="8838">
+    <test started-at="2021-04-17T11:23:11 IST" name="Test" finished-at="2021-04-17T11:23:25 IST" duration-ms="13739">
       <class name="Resolve6.Demo3">
-        <test-method signature="demo3()[pri:0, instance:Resolve6.Demo3@71e9ddb4]" started-at="2021-04-17T10:08:11 IST" name="demo3" finished-at="2021-04-17T10:08:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="demo3()[pri:0, instance:Resolve6.Demo3@561b6512]" started-at="2021-04-17T11:23:24 IST" name="demo3" finished-at="2021-04-17T11:23:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo3 -->
       </class> <!-- Resolve6.Demo3 -->
       <class name="Resolve6.Search">
-        <test-method is-config="true" signature="BT()[pri:0, instance:Resolve6.Search@58a9760d]" started-at="2021-04-17T10:08:03 IST" name="BT" finished-at="2021-04-17T10:08:08 IST" duration-ms="5575" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:Resolve6.Search@7494f96a]" started-at="2021-04-17T11:23:11 IST" name="BT" finished-at="2021-04-17T11:23:22 IST" duration-ms="10887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method signature="pl()[pri:0, instance:Resolve6.Search@58a9760d]" started-at="2021-04-17T10:08:08 IST" name="pl" finished-at="2021-04-17T10:08:09 IST" duration-ms="428" status="PASS">
+        <test-method signature="pl()[pri:0, instance:Resolve6.Search@7494f96a]" started-at="2021-04-17T11:23:22 IST" name="pl" finished-at="2021-04-17T11:23:22 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pl -->
-        <test-method signature="test()[pri:1, instance:Resolve6.Search@58a9760d]" started-at="2021-04-17T10:08:09 IST" name="test" finished-at="2021-04-17T10:08:11 IST" duration-ms="2332" status="PASS">
+        <test-method signature="test()[pri:1, instance:Resolve6.Search@7494f96a]" started-at="2021-04-17T11:23:22 IST" name="test" finished-at="2021-04-17T11:23:24 IST" duration-ms="2064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Resolve6.Search@58a9760d]" started-at="2021-04-17T10:08:11 IST" name="teardown" finished-at="2021-04-17T10:08:11 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Resolve6.Search@7494f96a]" started-at="2021-04-17T11:23:24 IST" name="teardown" finished-at="2021-04-17T11:23:25 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Resolve6.Search -->
       <class name="Resolve6.Demo1">
-        <test-method signature="demo1()[pri:0, instance:Resolve6.Demo1@394df057]" started-at="2021-04-17T10:08:11 IST" name="demo1" finished-at="2021-04-17T10:08:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="demo1()[pri:0, instance:Resolve6.Demo1@2e377400]" started-at="2021-04-17T11:23:24 IST" name="demo1" finished-at="2021-04-17T11:23:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
