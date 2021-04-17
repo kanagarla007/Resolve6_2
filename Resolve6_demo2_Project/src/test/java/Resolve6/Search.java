@@ -20,8 +20,9 @@ public class Search {
 	
 	public static void BT()
 	{
-		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
-		obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(65530).build()); 
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver_win32/chromedriver.exe");
+		obj = new ChromeDriver();
+		//obj = new ChromeDriver(new ChromeDriverService.Builder().usingPort(9090).build()); 
 		obj.get("https://www.selenium.dev/downloads/");
 	}
 	@AfterTest
