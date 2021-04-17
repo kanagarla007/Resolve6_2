@@ -19,7 +19,7 @@ public class Search {
 	
 	public static void BT()
 	{
-		System.setProperty("webdriver.chrome.driver", "\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver_win32\\chromedriver.exe");
 		obj = new ChromeDriver(); 
 		obj.get("https://www.selenium.dev/downloads/");
 	}
