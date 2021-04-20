@@ -22,6 +22,8 @@ public class Search {
 	
 	public static void BT()
 	{
+		
+		 
 		//WebDriverManager.chromedriver().setup();
 		System.setProperty("webdriver.chrome.driver", "/src/main/resources/chromedriver_win32/chromedriver.exe");
 		//obj = new ChromeDriver();
